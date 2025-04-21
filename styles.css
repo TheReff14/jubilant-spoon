@@ -1,0 +1,42 @@
+/* Simple dark background with bright text */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Bright text */
+    font-family: Arial, sans-serif; /* Clean font */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1e90ff; /* Bright blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00bfff; /* Lighter blue on hover */
+    text-decoration: underline;
+}
+
+button {
+    background-color: #333333; /* Dark button background */
+    color: #ffffff; /* Bright button text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555; /* Slightly lighter on hover */
+}
+
+input, textarea {
+    background-color: #222222; /* Dark input background */
+    color: #ffffff; /* Bright input text */
+    border: 1px solid #444444;
+    padding: 10px;
+}
+
+input:focus, textarea:focus {
+    border-color: #1e90ff; /* Highlighted border on focus */
+    outline: none;
+}
