@@ -40,3 +40,10 @@ input:focus, textarea:focus {
     border-color: #1e90ff; /* Highlighted border on focus */
     outline: none;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
