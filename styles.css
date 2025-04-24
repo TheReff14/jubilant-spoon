@@ -1,49 +1,53 @@
-/* Simple dark background with bright text */
-body {
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Bright text */
-    font-family: Arial, sans-serif; /* Clean font */
-    margin: 0;
-    padding: 0;
-}
+<style>
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
 
-a {
-    color: #1e90ff; /* Bright blue links */
-    text-decoration: none;
-}
+    h1 {
+      text-align: center;
+    }
 
-a:hover {
-    color: #00bfff; /* Lighter blue on hover */
-    text-decoration: underline;
-}
+    .board {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+    }
 
-button {
-    background-color: #333333; /* Dark button background */
-    color: #ffffff; /* Bright button text */
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
+    .column {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 10px;
+      width: 300px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
 
-button:hover {
-    background-color: #555555; /* Slightly lighter on hover */
-}
+    .column h2 {
+      margin-top: 0;
+    }
 
-input, textarea {
-    background-color: #222222; /* Dark input background */
-    color: #ffffff; /* Bright input text */
-    border: 1px solid #444444;
-    padding: 10px;
-}
+    .task {
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
 
-input:focus, textarea:focus {
-    border-color: #1e90ff; /* Highlighted border on focus */
-    outline: none;
-}
+    .add-task-btn {
+      margin-top: 10px;
+      width: 100%;
+      padding: 6px;
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
+    .add-task-btn:hover {
+      background-color: #1565c0;
+    }
+  </style>

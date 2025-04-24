@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="styles.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mein Kanban Board</title>
+  <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Web Page</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="content">
-            <p>This is a simple web page.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Web Page</p>
-    </footer>
-    <script src="script.js" defer></script>
+
+  <h1>Kanban Board</h1>
+
+  <div class="board">
+    <div class="column">
+      <h2>To Do</h2>
+      <div class="task">Beispiel-Task 1</div>
+      <div class="task">Beispiel-Task 2</div>
+      <button class="add-task-btn">+ Aufgabe</button>
+    </div>
+
+    <div class="column">
+      <h2>In Bearbeitung</h2>
+      <div class="task">Task in Arbeit</div>
+      <button class="add-task-btn">+ Aufgabe</button>
+    </div>
+
+    <div class="column">
+      <h2>Erledigt</h2>
+      <div class="task">Fertige Aufgabe</div>
+      <button class="add-task-btn">+ Aufgabe</button>
+    </div>
+  </div>
+
 </body>
 </html>
