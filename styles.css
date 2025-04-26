@@ -1,7 +1,8 @@
-<style>
+
     body {
       font-family: sans-serif;
-      background-color: #f4f4f4;
+      color: #edf9ff;
+      background-color: #11191f;
       margin: 0;
       padding: 20px;
     }
@@ -19,6 +20,7 @@
 
     .column {
       background-color: #fff;
+      color: #333;
       border-radius: 8px;
       padding: 10px;
       width: 300px;
@@ -26,7 +28,7 @@
     }
 
     .column h2 {
-      margin-top: 0;
+      margin-top: 10px;
     }
 
     .task {
@@ -50,4 +52,3 @@
     .add-task-btn:hover {
       background-color: #1565c0;
     }
-  </style>
